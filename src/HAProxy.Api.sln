@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HAProxy.Api", "HAProxy.Api\HAProxy.Api\HAProxy.Api.csproj", "{3449107B-59A7-495C-B163-F3F3DC8436FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6C1E83A3-16A1-4FC9-B8FF-23A447382980}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{82C3CDAA-1F37-43E8-BE8F-78C1C2A4DA2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HAProxyUtil", "..\test\HAProxyUtil\HAProxyUtil.csproj", "{CFD7D1EE-662B-42F0-9890-153D5EDD6305}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3449107B-59A7-495C-B163-F3F3DC8436FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3449107B-59A7-495C-B163-F3F3DC8436FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3449107B-59A7-495C-B163-F3F3DC8436FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3449107B-59A7-495C-B163-F3F3DC8436FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFD7D1EE-662B-42F0-9890-153D5EDD6305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFD7D1EE-662B-42F0-9890-153D5EDD6305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFD7D1EE-662B-42F0-9890-153D5EDD6305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFD7D1EE-662B-42F0-9890-153D5EDD6305}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3449107B-59A7-495C-B163-F3F3DC8436FE} = {6C1E83A3-16A1-4FC9-B8FF-23A447382980}
+		{CFD7D1EE-662B-42F0-9890-153D5EDD6305} = {82C3CDAA-1F37-43E8-BE8F-78C1C2A4DA2F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2DFCD80-93A9-4032-9E36-EF18794C19A8}
+	EndGlobalSection
+EndGlobal
